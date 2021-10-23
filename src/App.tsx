@@ -1,12 +1,21 @@
-import React from 'react';
+import React from 'react'
 import { Box, Container } from '@mui/material'
 
-function App() {
-  return (
-    <Container fixed>
-      <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} />
-    </Container>
-  );
+interface IAppProps {
+    
 }
 
-export default App;
+function App(props: IAppProps) {
+    console.log(props)
+    return (
+        <Container fixed>
+            <Box sx={{ height: '100vh', bgcolor: '#FFFFFF' }}>
+                
+            </Box>
+        </Container>
+    )
+}
+
+export default App
+
+// import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';

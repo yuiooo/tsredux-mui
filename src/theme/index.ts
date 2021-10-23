@@ -1,8 +1,10 @@
-import { createTheme } from "@mui/material/styles";
-import { green, purple } from '@mui/material/colors';
+import { createTheme } from "@mui/material/styles"
+import { purple, green } from "@mui/material/colors"
+
 
 export default createTheme({
     palette: {
+        mode: 'light',
         primary: {
             main: purple[500],
         },
