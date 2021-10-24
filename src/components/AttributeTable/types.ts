@@ -1,5 +1,5 @@
 export interface GridPaginationSettings {
-    pagination: boolean;
+    pagination: true | undefined;
     autoPageSize: boolean;
     pageSize: number | undefined;
 }

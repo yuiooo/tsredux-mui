@@ -1157,7 +1157,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.4", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.15.4", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.15.4"
   resolved "https://registry.nlark.com/@babel/runtime/download/@babel/runtime-7.15.4.tgz?cache=0&sync_timestamp=1630618785994&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=
@@ -1603,18 +1603,7 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@material-ui/utils@^5.0.0-beta.4":
-  version "5.0.0-beta.5"
-  resolved "https://registry.nlark.com/@material-ui/utils/download/@material-ui/utils-5.0.0-beta.5.tgz#de492037e1f1f0910fda32e6f11b66dfcde2a1c2"
-  integrity sha1-3kkgN+Hx8JEP2jLm8Rtm383iocI=
-  dependencies:
-    "@babel/runtime" "^7.14.8"
-    "@types/prop-types" "^15.7.4"
-    "@types/react-is" "^16.7.1 || ^17.0.0"
-    prop-types "^15.7.2"
-    react-is "^17.0.2"
-
-"@mui/core@5.0.0-alpha.51":
+"@mui/core@5.0.0-alpha.51", "@mui/core@^5.0.0-alpha.50":
   version "5.0.0-alpha.51"
   resolved "https://registry.npmmirror.com/@mui/core/download/@mui/core-5.0.0-alpha.51.tgz#3c5f715a0ee5ab123e0987047b8e4651964ecc54"
   integrity sha1-PF9xWg7lqxI+CYcEe45GUZZOzFQ=
@@ -1716,22 +1705,23 @@
     prop-types "^15.7.2"
     react-is "^17.0.2"
 
-"@mui/x-data-grid-generator@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.npmmirror.com/@mui/x-data-grid-generator/download/@mui/x-data-grid-generator-4.0.1.tgz#aaecc5b6b6391ad2428fd7ceaf57ec79a451aa1d"
-  integrity sha1-quzFtrY5GtJCj9fOr1fseaRRqh0=
+"@mui/x-data-grid-generator@^5.0.0-beta.4":
+  version "5.0.0-beta.4"
+  resolved "https://registry.npmmirror.com/@mui/x-data-grid-generator/download/@mui/x-data-grid-generator-5.0.0-beta.4.tgz#c75d2e7fcc2a8907af9db4821e0f4da3c959e40b"
+  integrity sha1-x10uf8wqiQevnbSCHg9No8lZ5As=
   dependencies:
+    "@mui/core" "^5.0.0-alpha.50"
     "@types/chance" "^1.1.3"
     chance "^1.1.7"
     clsx "^1.1.1"
     lru-cache "^6.0.0"
 
-"@mui/x-data-grid@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.npmmirror.com/@mui/x-data-grid/download/@mui/x-data-grid-4.0.1.tgz#7b1ad30a8ecf2981a5b7940805daf993ddd73a50"
-  integrity sha1-exrTCo7PKYGlt5QIBdr5k93XOlA=
+"@mui/x-data-grid@^5.0.0-beta.4":
+  version "5.0.0-beta.4"
+  resolved "https://registry.npmmirror.com/@mui/x-data-grid/download/@mui/x-data-grid-5.0.0-beta.4.tgz#69127170a433f541b38c67ec31fdb36ea1156b89"
+  integrity sha1-aRJxcKQz9UGzjGfsMf2zbqEVa4k=
   dependencies:
-    "@material-ui/utils" "^5.0.0-beta.4"
+    "@mui/utils" "^5.0.1"
     clsx "^1.1.1"
     prop-types "^15.7.2"
     reselect "^4.0.0"
