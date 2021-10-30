@@ -12,5 +12,19 @@ export default createTheme({
             main: green[500],
         },
     },
+    components: {
+        MuiTab: {
+            styleOverrides: {
+                root: {
+                    display: 'block',
+                    textOverflow: 'ellipsis',
+                    overflow: 'hidden',
+                    whiteSpace: 'nowrap',
+                    flexDirection: 'unset',
+                    textTransform: 'initial',
+                }
+            }
+        }
+    }
 })
 
